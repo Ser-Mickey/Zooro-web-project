@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zooro - Browse Listings</title>
+</head>
+<body>
+
+    <header>
+        <h1>🏠 Zooro Kenya</h1>
+        <nav>
+            <a href="index.html">Home</a> | 
+            <a href="listings.html"><strong>Listings</strong></a> | 
+            <a href="post-house.html">Post House</a> | 
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section>
+            <h2>Browse Available Houses</h2>
+            <form action="#">
+                <label for="location">Location:</label>
+                <select id="location">
+                    <option>Westlands</option>
+                    <option>Kilimani</option>
+                    <option>Ngong Road</option>
+                </select>
+                &nbsp;&nbsp;
+
+                <label for="price">Price Range:</label>
+                <select id="price">
+                    <option>Below 10,000</option>
+                    <option>10,000 - 30,000</option>
+                    <option>Above 30,000</option>
+                </select>
+                &nbsp;&nbsp;
+
+                <label for="type">House Type:</label>
+                <select id="type">
+                    <option>Bedsitter</option>
+                    <option>Studio</option>
+                    <option>Apartment</option>
+                </select>
+                &nbsp;&nbsp;
+
+                <button type="submit">Filter</button>
+            </form>
+        </section>
+
+        <br><hr><br>
+
+        <section>
+            <article>
+                <img src="house1.jpg" alt="House" width="300">
+                <h3>2 Bedroom - Westlands</h3>
+                <p>Ksh 25,000/month</p>
+                <a href="#">View Details</a>
+            </article>
+            <br><br>
+
+            <article>
+                <img src="images/house2.jpg" alt="Studio" width="300">
+                <h3>Studio - Kilimani</h3>
+                <p>Ksh 12,000/month</p>
+                <a href="#">View Details</a>
+            </article>
+            <br><br>
+
+            <article>
+                <img src="images/house3.jpg" alt="House" width="300">
+                <h3>3 Bedroom - Kahawa West</h3>
+                <p>Ksh 35,000/month</p>
+                <a href="#">View Details</a>
+            </article>
+            <br><br>
+
+            <article>
+                <img src="images/house4.jpg" alt="Bedsitter" width="300">
+                <h3>Bedsitter - Ngong Road</h3>
+                <p>Ksh 8,000/month</p>
+                <a href="#">View Details</a>
+            </article>
+        </section>
+
+        <br><hr><br>
+
+        <section>
+            <h2>Listing Summary</h2>
+            <table border="1" cellpadding="8" cellspacing="0">
+                <thead>
+                    <tr bgcolor="#f2f2f2">
+                        <th>Location</th>
+                        <th>Price</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Westlands</td>
+                        <td>Ksh 25,000</td>
+                        <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>Kilimani</td>
+                        <td>Ksh 12,000</td>
+                        <td>Available</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <br><hr>
+
+    <footer>
+        <p>&copy; 2026 Zooro Kenya. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
