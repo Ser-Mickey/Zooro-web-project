@@ -3,84 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zooro - Post a House</title>
+    <title>Zooro — Find Your Home in Nairobi</title>
 </head>
 <body>
 
     <header>
         <h1>🏠 Zooro Kenya</h1>
         <nav>
-            <a href="index.html">Home</a> | 
+            <a href="index.html"><strong>Home</strong></a> | 
             <a href="listings.html">Listings</a> | 
-            <a href="post-house.html"><strong>Post House</strong></a> | 
+            <a href="post a house.html">Post a House</a> | 
             <a href="contact.html">Contact</a>
         </nav>
     </header>
 
     <hr>
 
-    <main>
-        <h2>List Your Property on Zooro</h2>
-        <p>Reach thousands of tenants in Nairobi</p>
+    <section>
+        <h2>Find Your Perfect Home in Nairobi</h2>
+        <p>Thousands of verified listings across Westlands, Kilimani, Lavington, and more.</p>
+
+        <form action="#">
+            <input type="text" placeholder="Search by area e.g. Kilimani...">
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Featured Listings</h2>
+
+        <article>
+            <img src="house1.jpg" alt="2 bedroom house in Westlands" width="300">
+            <h3>2 Bedroom — Westlands</h3>
+            <p>Rent: <strong>KSh 25,000/month</strong></p>
+            <p>Spacious apartment with parking and security.</p>
+        </article>
         <br>
 
-        <form action="#" method="POST">
-            
-            <p>
-                <label for="landlordName">Landlord Name:</label><br>
-                <input type="text" id="landlordName" name="landlordName" placeholder="Enter your full name..." size="40" required>
-            </p>
+        <article>
+            <img src="house2.jpg" alt="Studio apartment in Kilimani" width="300">
+            <h3>Studio — Kilimani</h3>
+            <p>Rent: <strong>KSh 12,000/month</strong></p>
+            <p>Cosy studio, walking distance to Yaya Centre.</p>
+        </article>
+        <br>
 
-            <p>
-                <label for="phoneNumber">Phone Number:</label><br>
-                <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="e.g + 254 7 01111110" size="40" required>
-            </p>
+        <article>
+            <img src="house3.jpg" alt="3 bedroom in Lavington" width="300">
+            <h3>3 Bedroom — Lavington</h3>
+            <p>Rent: <strong>KSh 45,000/month</strong></p>
+            <p>Family home with garden and borehole water.</p>
+        </article>
+        
+        <br>
+        <p><a href="listings.html">View All Available Listings &rarr;</a></p>
+    </section>
 
-            <p>
-                <label for="location">Location/Estate:</label><br>
-                <input type="text" id="location" name="location" placeholder="e.g Kahawa West, Ngong Road..." size="40" required>
-            </p>
+    <hr>
 
-            <p>
-                <label for="houseType">House Type:</label><br>
-                <select id="houseType" name="houseType" required>
-                    <option value="" disabled selected>Bedsitter ▾</option>
-                    <option value="studio">Studio</option>
-                    <option value="1bed">1 Bed</option>
-                    <option value="2bed">2 Bed</option>
-                    <option value="3bed">3 Bed</option>
-                </select>
-            </p>
+    <section>
+        <h2>Why Choose Zooro?</h2>
+        <ul>
+            <li> Verified landlords only</li>
+            <li> No agent fees for tenants</li>
+            <li> New listings added daily</li>
+            <li> Covering all Nairobi estates</li>
+        </ul>
+    </section>
 
-            <p>
-                <label for="rent">Monthly Rent (Ksh):</label><br>
-                <input type="number" id="rent" name="rent" placeholder="e.g. 25,000" required>
-            </p>
-
-            <p>
-                <label for="availableFrom">Available From:</label><br>
-                <input type="date" id="availableFrom" name="availableFrom" required>
-            </p>
-
-            <p>
-                <label for="description">Description:</label><br>
-                <textarea id="description" name="description" rows="6" cols="42" placeholder="Describe your property - amenities, nearby places..."></textarea>
-            </p>
-
-            <p>
-                <label for="photo">Upload Photo:</label><br>
-                <input type="file" id="photo" name="photo" accept="image/*">
-            </p>
-            
-            <br>
-            <button type="submit">Submit Listing</button>
-        </form>
-    </main>
-
-    <br><hr>
+    <hr>
 
     <footer>
         <p>&copy; 2026 Zooro Kenya. All rights reserved.</p>
+        <p>
+            <a href="index.html">Home</a> |
+            <a href="listings.html">Listings</a> |
+            <a href="post a house.html">Post House</a> |
+            <a href="contact.html">Contact</a>
+        </p>
     </footer>
 
 </body>
